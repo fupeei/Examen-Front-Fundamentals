@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>DeportesDojo</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!--Encabezado-->
+    <div class="encabezado">
+        <div class="flexencabezado">
+            <div class="livescores" id="encabezadoTitulo"><h2>Live Scores</h2></div>
+            <div class="livescores">
+                <ul class="livescoreslist">
+                    <li>SJC Ninjas - 314</li>
+                    <li>NS Pirates - 159</li>
+                </ul>
+            </div>
+            <div class="livescores">
+                <ul class="livescoreslist">
+                    <li>CHI Samurai - 0</li>
+                    <li>TUL Wizards - 0</li>
+                </ul>
+            </div>
+            <div class="livescores">
+                <ul class="livescoreslist">
+                    <li>BOS Hackers - 13</li>
+                    <li>TYO Youkai - 37</li>
+                </ul>
+            </div>
+            <div class="livescores">
+                <ul class="livescoreslist">
+                    <li>BOI Knigths - 5</li>
+                    <li>SEA Sea Lions - 11</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!--Barra de Navegación-->
+    <div class="nav">
+        <div class="flexnav">
+            <div class="tipoDeporteContenedor">
+                <ul class="tipoDeporte">
+                    <li id="titulonav"><h1>DSNN</h1></li>
+                    <li class="deporte"> <a href="">Football</a></li>
+                    <li class="deporte"><a href="">Basquetball</a></li>
+                    <li class="deporte"><a href="">Baseball</a></li>
+                    <li class="deporte"><a href="">Soccer</a></li>
+                    <li class="deporte"><a href="">More...</a></li>
+                </ul>
+            </div>
+                <div class="imagenesnavContenedor">
+                    <ul class="imagenesnav">
+                        <li><a href=""><img class="imgnav" src="./dsnn/assets/search-light.png" alt=""></a></li>
+                        <li><a href=""><img class="imgnav" src="./dsnn/assets/hamburger-light.png" alt=""></a></li>
+                        <li><a href=""><img class="imgnav" src="./dsnn/assets/user-circle-light.png" alt=""></a></li>
+                    </ul>
+                </div>    
+        </div>
+    </div>
+    <!--Main-->
+    <div class="main">
+        <div class="flexmain">
+            <div class="izquierda">
+                <div class="topStories">
+                    <div class="topheader"><h2>Top Stories</h2></div>
+                    <div class="topbody">
+                        <ul class="storieslist">
+                            <li class="stories"><a href="">Ninjas up big in 5th</a></li>
+                            <li class="stories"><a href="">Best sports cities</a></li>
+                            <li class="stories"><a href="">Choi joins hall of Fame</a></li>
+                            <li class="stories"><a href="">Tournament underway</a></li>
+                            <li class="stories"><a href="">Samurai at Wizards</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="custimize">
+                    <div class="boxtitulo"><h3>Customize your DSNN</h3></div>
+                    <div class="boxbody">
+                        <button class="btncustomize">Sign In</button>
+                        <button class="btncustomize" id="btndos">Sign Up</button>
+                    </div>
+                </div>
+                <div class="nevermiss">
+                    <div class="boxtitulo"><h3>Never miss a play</h3></div>
+                    <div class="boxbody">
+                        <button onclick="eliminar(this)" id="btn3">Subscribe</button>
+                    </div>
+                </div>
+            </div>
+            <div class="derecha">
+                <div class="marcador">
+                    <div class="marcadortitulo">
+                        <h1 id="livesection">●Live</h1>
+                        <h1>Ninjas Leading Pirates</h1>
+                    </div>
+                    <div class="marcadorlive">
+                        <div class="ninjas">
+                            <img src="./dsnn/assets/sjc-ninjas.png" alt="">
+                            <h4>San Jose</h4>
+                            <h1 id="ninjascolor">Ninjas</h1>
+                            <p class="historial">(10 W - 3L)</p>
+                            <h1 onclick="aumentar(this)" class="puntos">316</h1>
+                        </div>
+                        <div class="vs">
+                            <h1>VS</h1>
+                            <p id ="tiempo">0:13 remaining</p>
+                            <p >5th period</p>
+                        </div>
+                        <div class="piratas">
+                            <img src="./dsnn/assets/ns-pirates.png" alt="">
+                            <h4>Nova Scotia</h4>
+                            <h1 id="piratescolor">Pirates</h1>
+                            <p class="historial">(12 W - 2L)</p>
+                            <h1 onclick="aumentar(this)" class="puntos">159</h1>
+                        </div>
+                    </div>
+                    <div class="piedebox">
+                        <p>A conservative match between the two top-performing sides in the Central League Division with a number 1 seed at stake ... <a href="">get live updates</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>

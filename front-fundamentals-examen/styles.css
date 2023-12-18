@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;1,100&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+/* Encabezado */
+.encabezado {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+.flexencabezado {
+    display: flex;
+    justify-content: center;
+    width: 1800px;
+}
+.livescores {
+    margin-left: 90px;
+}
+.livescoreslist {
+    list-style: none;
+    font-weight: bold;
+}
+#encabezadoTitulo {
+    margin: 0px;
+}
+/* Barra de Navegación */
+.nav{
+    display: flex;
+    justify-content: center;
+    background-color:black ;
+}
+.flexnav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    height: 60px;
+    width: 1800px;
+}
+.tipoDeporteContenedor{
+    margin-right: 140px;
+}
+.tipoDeporte, .imagenesnav{
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+.deporte{
+    margin-left: 50px;
+}
+
+.imgnav {
+    width: 30px;
+    margin-left: 20px;
+}
+#titulonav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: brown;
+    height: 60px;
+    width:120px ;
+    font-style: italic;
+}
+.tipoDeporteContenedor a {
+    text-decoration: none;
+    color: white;
+}
+/* Main */
+.main {
+    background-color: gainsboro;
+    padding-top: 30px;
+    height: 82vh;
+    
+}
+.flexmain {
+    display: flex;
+    justify-content: center;
+}
+.derecha {
+    margin-left: 30px;
+}
+.topStories, .custimize, .nevermiss {
+    margin-bottom: 30px;
+}
+/* Tarjeta 1 */
+.topStories {
+    background-color: white;
+    border-radius: 20px;
+    padding: 20px;
+    padding-bottom: 40px;
+    width: 250px;
+}
+.topheader{
+    border-bottom: 3px black solid;
+}
+.topheader h2 {
+    margin-bottom: 20px;
+}
+.stories {
+    list-style: none;
+    margin-top: 20px;
+}
+.stories a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+/* Tarjeta 2 */
+.custimize {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    border-radius: 20px;
+    padding: 20px;
+    padding-bottom: 40px;
+    width: 250px;
+}
+.boxtitulo h3 {
+    font-weight: bold;
+}
+.boxbody {
+    margin-top: 20px;
+}
+.btncustomize {
+    background-color: cornflowerblue;
+    color: white;
+    height: 40px;
+    width: 100px;
+    font-size: 15px;
+    font-weight: bold;
+    box-shadow: 5px 5px 0px black;
+    cursor: pointer;
+}
+#btndos {
+    background-color: white;
+    color: black;
+    margin-left: 20px;
+    cursor: pointer;
+}
+/* Tarjeta 3 */
+.nevermiss {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    border-radius: 20px;
+    padding: 20px;
+    padding-bottom: 40px;
+    width: 250px;
+}
+#btn3 {
+    background-color: gold;
+    color: black;
+    height: 40px;
+    width: 200px;
+    font-size: 15px;
+    font-weight: bold;
+    box-shadow: 5px 5px 0px black;
+    cursor: pointer;
+}
+/* Tarjeta Principal */
+.marcador {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    border-radius: 20px;
+    padding: 20px;
+    padding-bottom: 40px;
+    width: 600px;
+}
+.marcadortitulo {
+    display:flex ;
+}
+#livesection {
+    margin-right: 80px;
+    color: brown;
+    font-weight: bold;
+}
+.marcadorlive {
+    display: flex;
+    padding: 40px 0px;
+    border-bottom: 3px black solid;
+}
+.ninjas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.vs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 120px;
+}
+.vs h1{
+    margin-top: 100px;
+}
+#tiempo {
+    margin-top: 130px;
+}
+.vs p {
+    font-weight: bold;
+}
+.piratas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.marcadorlive img {
+    width: 230px;
+}
+#ninjascolor{
+    color: rgb(2, 158, 158);
+}
+#piratescolor {
+    color: brown;
+}
+.piedebox{
+    padding-top: 30px;
+}
+.piedebox a {
+    color: blue;
+    font-weight: bold;
+}
+.puntos {
+    font-size: 50px;
+}
+.historial {
+    color: rgb(170, 170, 170);
+    margin-top: 5px;
+}
